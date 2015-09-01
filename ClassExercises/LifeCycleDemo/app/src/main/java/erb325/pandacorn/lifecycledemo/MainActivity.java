@@ -8,12 +8,21 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity { //ActivityBar is deprecated
 
+    /**
+     * Bundle is a package that save the application state to load
+     * next time it is open.
+     *
+     */
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * inflates the action bar menu
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
