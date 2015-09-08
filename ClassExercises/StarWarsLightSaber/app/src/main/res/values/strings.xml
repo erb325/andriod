@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">StarWarsLightSaber</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="warning">These aren\'t the Droids you are looking for </string>
+    <string name="button_text">Use the Force</string>
     <string name="action_settings">Settings</string>
 </resources>
