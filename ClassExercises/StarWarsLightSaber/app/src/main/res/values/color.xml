@@ -2,4 +2,5 @@
 <resources>
     <color name="background">#ff383738</color>
     <color name="warning">#ff26dd29</color>
+    <color name="force_background">#82b475dd</color>
 </resources>

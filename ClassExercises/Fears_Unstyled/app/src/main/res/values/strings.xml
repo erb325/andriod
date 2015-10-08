@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fears</string>
+
+    <string name="prompt">Select your fears.</string>
+    <string name="action_settings">Settings</string>
+    <string name="advice_button_test">Get advice</string>
+    <string name="feel_better_button_text">Feel better</string>
+</resources>

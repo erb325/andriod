@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Countdown</string>
+
+    <string name="button_text">Countdown</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Race Prophet</string>
+    <string name="km_label">kilometers</string>
+    <string name="mile_label">miles</string>
+    <string name="mile">Mile</string>
+    <string name="five_k">5K</string>
+    <string name="ten_k">10K</string>
+    <string name="halfmar">Half Marathon</string>
+    <string name="marathon">Marathon</string>
+    <string name="performed_distance_label">Performed\nRace\nDistance</string>
+    <string name="target_distance_label">Target\nRace\nDistance</string>
+    <string name="hours_prompt">hours</string>
+    <string-array name="hours_array">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+    </string-array>
+    <string name="button_text">Predict Target Time</string>
+    <string name="default_prediction">00:00:00</string>
+    <string name="cameron_model">Cameron</string>
+    <string name="riegel_model">Riegel</string>
+    <string name="cameron_selected">Cameron is selected</string>
+</resources>

@@ -1,0 +1,79 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:orderInCategory="100"
+        android:title="performed dist"
+        app:showAsAction="always">
+
+        <menu app:showAsAction="always">
+            <item
+                android:id="@+id/performedDistanceMile"
+                android:onClick="setDistance"
+                android:title="@string/mile" />
+            <item
+                android:id="@+id/performedDistance5K"
+                android:onClick="setDistance"
+                android:title="@string/five_k" />
+            <item
+                android:id="@+id/performedDistance10K"
+                android:onClick="setDistance"
+                android:title="@string/ten_k" />
+            <item
+                android:id="@+id/performedDistanceHalfMarathon"
+                android:onClick="setDistance"
+                android:title="@string/halfmar" />
+            <item
+                android:id="@+id/performedDistanceMarathon"
+                android:onClick="setDistance"
+                android:title="@string/marathon" />
+        </menu>
+    </item>
+    <item
+        android:orderInCategory="200"
+        android:title="target dist"
+        app:showAsAction="always">
+        <menu app:showAsAction="always">
+            <item
+                android:id="@+id/targetDistanceMile"
+                android:onClick="setDistance"
+                android:title="@string/mile" />
+            <item
+                android:id="@+id/targetDistance5K"
+                android:onClick="setDistance"
+                android:title="@string/five_k" />
+            <item
+                android:id="@+id/performedDistance10K"
+                android:onClick="setDistance"
+                android:title="@string/ten_k" />
+            <item
+                android:id="@+id/targetDistanceHalfMarathon"
+                android:onClick="setDistance"
+                android:title="@string/halfmar" />
+            <item
+                android:id="@+id/targetDistanceMarathon"
+                android:onClick="setDistance"
+                android:title="@string/marathon" />
+        </menu>
+    </item>
+
+    <group
+        android:checkableBehavior="single"
+        android:orderInCategory="300"
+        android:title="model"
+        app:showAsAction="never">
+
+        <item
+            android:id="@+id/cameron_menu_item"
+            android:checkable="true"
+            android:orderInCategory="310"
+            android:title="@string/cameron_model"/>
+
+        <item
+            android:id="@+id/riegel_menu_item"
+            android:orderInCategory="320"
+            android:title="@string/riegel_model"/>
+
+    </group>
+</menu>

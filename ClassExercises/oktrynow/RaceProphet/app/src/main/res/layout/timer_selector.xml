@@ -1,0 +1,54 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Thi custom viewgroup consists of a textview followed by 3 spinners
+    by which the user can select a time in HH:MM:SS format. The spinners are
+    separated by textviews displaying a colon.-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeSelector"
+        android:orientation="horizontal"
+        android:background="@color/android_green">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:id="@+id/timeTextView" />
+
+        <!-- Hours -->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hoursSpinner"
+            android:entries="@array/hours_array"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+
+        <!-- Minutes -->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/minutesSpinner"
+            android:entries="@array/hours_array"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"/>
+
+        <!-- Seconds -->
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/secondsSpinner"
+            android:entries="@array/hours_array"
+            android:layout_centerVertical="true"/>
+    </LinearLayout>
+</merge>
